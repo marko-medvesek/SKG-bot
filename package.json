@@ -1,0 +1,19 @@
+{
+  "name": "skg-discord-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord": "^0.8.2",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "fs": "^0.0.1-security",
+    "minecraft-server-util": "^5.2.9",
+    "node-fetch": "^3.2.0"
+  }
+}
