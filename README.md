@@ -19,6 +19,6 @@
                 - minecraft-server-util: ^5.2.9,
        Navodila:
                 Za vsak dependency moraš v console napisat `npm install {ime dependencia}`
-  
+                Nato pa zagnat discord bota z: `node main.js`
   
   Kontakt: SlovenianGamer#0498
