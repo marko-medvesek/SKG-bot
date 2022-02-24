@@ -11,7 +11,7 @@
 
 ## Inštalacija
 ### Requirments
-    - Node.js v17
+    - Node.js v17.5.0
       dependencies:
                 - discord.js: ^13.6.0,
                 - dotenv: ^16.0.0,
