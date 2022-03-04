@@ -1,3 +1,4 @@
+
 const util = require('minecraft-server-util');
 const Discord = require('discord.js');
 require('dotenv').config();
@@ -5,7 +6,7 @@ var fs = require('fs');
 var data = fs.readFileSync('config.json');
 var config = JSON.parse(data);
 
-let TOKEN = process.env.TOKEN;
+const TOKEN = process.env['TOKEN']
 const url = 'https://api.minetools.eu/ping/135.125.123.119/25600/'
 const client = new Discord.Client({intents: ["GUILDS","GUILD_MESSAGES"]});
 
