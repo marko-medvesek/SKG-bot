@@ -1,15 +1,15 @@
 # ŠKG-bot
 ŠKG Minecraft server Discord bot
 
-## Komande:
-### Pomoč
+## Commands:
+### Help
 /help
-### Preveri status serverja
+### Check server status
 /status
-### Nastavi drug server ip in port
-/nastavi {ip} {port}
+### Change server ip and port
+/set {ip} {port}
 
-## Inštalacija
+## Installation
 ### Requirments
     - Node.js v17.5.0
       dependencies:
@@ -18,7 +18,7 @@
                 - fs: ^0.0.1-security,
                 - minecraft-server-util: ^5.2.9,
        Navodila:
-                Za vsak dependency moraš v console napisat `npm install {ime dependencia}`
-                Nato pa zagnat discord bota z: `node main.js`
+                For every dependency you nead to: `npm install {name dependencia}`
+                Run Discord bot with: `node main.js`
   
-  Kontakt: SlovenianGamer#0498
+  Contact: SlovenianGamer#0498
