@@ -33,7 +33,7 @@ client.on('ready', () => {
 		description: 'Prikaz pomoči za uporabo ŠKG bota'
 	})
     commands?.create({
-		name: 'nastavi',
+		name: 'set',
 		description: 'Spremeni nastavitve za server status.',
 		options: [
 			{
